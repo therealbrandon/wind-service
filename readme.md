@@ -21,4 +21,4 @@ php artisan serve
 
 The welcome view should now be accessible by navigating to [http://localhost:8000](http://localhost:8000).
 
-The wind resource should now be accessible by navigating to [http://localhost:8000/api/v1/wind/89101](http://localhost:8000/api/v1/wind/89101) or [http://localhost:8000/wind/89101](http://localhost:8000/wind/89101).
+The wind resource should now be accessible by navigating (or sending a `curl` request) to [http://localhost:8000/api/v1/wind/89101](http://localhost:8000/api/v1/wind/89101) or [http://localhost:8000/wind/89101](http://localhost:8000/wind/89101).
