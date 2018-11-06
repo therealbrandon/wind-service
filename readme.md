@@ -2,7 +2,7 @@
 
 This code challenge will return a JSON resource with the current wind speed and direction for a given zipcode. The resource will be cached for 15 minutes and there is an included CLI command to bust the cache. Run `php artisan help cachebust` to learn more.
 
-### How to run this code challenge
+## How to run this code challenge
 
 Clone the repository.
 ```
