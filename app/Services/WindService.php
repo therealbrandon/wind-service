@@ -68,11 +68,6 @@ class WindService implements WindInterface
         return $wind;
     }
 
-    /**
-     *
-     * @param $url
-     * @return string
-     */
     private function sendRequest(string $url)
     {
         $response = $this->guzzle->request('GET', $url);
